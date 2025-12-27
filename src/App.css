@@ -2,3 +2,20 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clicked-btn, .clear-btn{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.container{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
