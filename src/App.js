@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import BtnCounter from './BtnCounter';
 import BtnClear from './BtnClear';
+import TypePrint from './TypePrint';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           setCount={setCount}
         />
       </div>
+      <TypePrint/>
       
     </div>
   );
